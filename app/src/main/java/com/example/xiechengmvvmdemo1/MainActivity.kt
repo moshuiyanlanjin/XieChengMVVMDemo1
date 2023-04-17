@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.vm = viewModel
 
-        binding.bt.setOnClickListener { Log.d("zlc","打印的MainActivity")
+        binding.bt.setOnClickListener { Log.d("zlc","打印的MainActivity主干")
             viewModel.requestLogin("Derry-vip", "123456")
         }
 
